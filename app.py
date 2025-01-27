@@ -6,7 +6,7 @@ from sklearn.cluster import KMeans
 from io import BytesIO
 
 st.title("Blade Angle Detection App")
-st.write("Upload an image of a crankshaft fan to detect blades and compute angles.")
+st.write("Upload an image of a crankshaft to detect blades and compute angles.")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["png", "jpg", "jpeg"])
 
