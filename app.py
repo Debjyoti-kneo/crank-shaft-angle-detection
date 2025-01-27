@@ -90,7 +90,7 @@ if uploaded_file is not None:
     # Display processed image with detected angles
     fig, ax = plt.subplots(figsize=(10, 10))
     ax.imshow(cv2.cvtColor(output, cv2.COLOR_BGR2RGB))
-    ax.set_title(f'Final Blade Lines (Angles in degrees)')
+    ax.set_title(f'Final Blade Lines (in degrees)')
     ax.axis('off')
     
     st.pyplot(fig)
